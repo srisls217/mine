@@ -1,5 +1,5 @@
 With cte as 
 (
-Select emp_id from emp_master 
+Select eid from emp_master union all Select eid From Profile_general
 )
 Select * from cte
